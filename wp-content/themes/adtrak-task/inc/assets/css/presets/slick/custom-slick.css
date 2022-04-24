@@ -1,0 +1,57 @@
+
+
+
+  .post-carousel .slick-slide{  margin: 0px 5px;}
+
+
+/*** SLICK ARROW ***/
+@media screen and (max-width: 1199px) {
+    button.slick-next {margin-right: 60px!important;}
+    button.slick-prev {margin-left: 60px!important;}
+}
+@media screen and (min-width: 1200px) {
+    button.slick-next {margin-right: -20px!important;}
+    button.slick-prev {margin-left: -20px!important;}
+}
+button.slick-arrow {width: 40px!important;height: 40px!important;border-radius: 60px !important;z-index: 999999!important;}
+
+button.slick-next:before {content: "\f105";}
+button.slick-prev:before {content: "\f104";}
+.slick-prev:before, .slick-next:before  {font-family: "Font Awesome 5 Free";font-weight: 900;line-height: 40px;font-size: 27px !important;}
+/*** SLICK ARROW ***/
+
+/*** SLICK ARROW - HOVER / FOCUS **
+button.slick-arrow:focus, 
+button.slick-arrow:hover {background-color: #9b2161 !important;}
+button.slick-arrow:focus:before,
+button.slick-arrow:hover:before {color:white !important;}
+/*** SLICK ARROW - HOVER / FOCUS ***/
+
+/*** SLICK - POST - MAIN **
+.post-carousel .slick-slide{transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);}
+.post-carousel .slick-slide {margin: 20px;position: relative;transition: all 0.4s ease-in-out 0s;border-radius: 10px;overflow: hidden;}
+/*** SLICK - POST - MAIN ***/
+
+/*** SLICK - POST - IMAGE ***/
+.post-carousel .img_frame,
+.post-carousel .img_frame .post-carousel-image{min-height: 350px;background-size: cover;}
+
+
+
+/*** SLICK - POST - IMAGE ***/
+
+/*** SLICK - POST - CONTENT **
+.post-carousel .slick-slide a.main-link {width: 100% !important;display: block !important;cursor: pointer;z-index: 1;position: relative;}
+@media only screen and (max-width: 799px) {
+.post-carousel .slick-slide * {text-align: center !important;}}
+.post-carousel .post-carousel-content {position: absolute;width:100%;padding:40px;z-index:3;top:0;left:0;}
+.post-carousel .post-carousel-content * {color:white;}
+/*** SLICK - POST - CONTENT ***/
+
+/*** SLICK - POST - HOVER **
+.post-carousel .slick-slide:hover a{color:#ffffff;}
+.post-carousel .slick-slide:after{content: " ";background-color:#025580c2;width:100%;height:100%;top:0;left:0;position:absolute;z-index:2;transition:all 0.4s ease-in-out 0s;pointer-events: none;}
+.post-carousel .slick-slide:hover:after{background-color:#9b2161c2;}
+/*** SLICK - POST - HOVER ***/
+
+

@@ -1,0 +1,41 @@
+[20-Apr-2022 23:19:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 159
+[20-Apr-2022 23:20:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 343
+[20-Apr-2022 23:20:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 343
+[21-Apr-2022 17:46:55 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-page.php on line 131
+[22-Apr-2022 10:30:04 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:30:04 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:37:45 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:37:45 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:38:07 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:38:07 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:38:43 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:38:43 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:38:52 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:38:52 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:39:37 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:39:37 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:39:44 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:39:44 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:39:56 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:39:56 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:39:59 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:39:59 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:40:09 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:40:09 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:44:57 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:44:57 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:44:58 UTC] PHP Warning:  Illegal string offset 'url' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 10:44:58 UTC] PHP Warning:  Illegal string offset 'alt' in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/header.php on line 223
+[22-Apr-2022 15:07:53 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:07:54 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:14 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:15 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:31 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:32 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:36 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:37 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:37 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:38 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[22-Apr-2022 15:08:39 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-hero.php on line 12
+[23-Apr-2022 11:18:25 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-page.php on line 234
+[24-Apr-2022 11:45:48 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/nwddevne/justatest.nwddev.net/wp-content/themes/nwd/template-parts/content-page.php on line 202
