@@ -55,7 +55,7 @@
                                     
                                     <?php if( get_sub_field('button_text') ): ?>
                                     
-                                        <a class="button mr-2" href="<?php the_sub_field('button_link'); ?>"><?php the_sub_field('button_text'); ?></a>
+                                        <a class="button mr-2 mb-3" href="<?php the_sub_field('button_link'); ?>"><?php the_sub_field('button_text'); ?></a>
                                     
                                     <?php endif; ?>
                                     
