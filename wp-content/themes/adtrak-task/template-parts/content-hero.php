@@ -27,7 +27,7 @@
                         
                         if( !empty( $hero_image ) ): ?>
                         
-                            <img class="position-absolute" style="right: -15px; top: 0; min-width: 65vw; max-width: 100vw" src="<?php echo esc_url( $hero['hero_image']['url'] ); ?>" alt="<?php echo esc_attr( $hero['hero_image']['alt'] ); ?>" />
+                            <img class="position-absolute" style="right: -15px; top: 0; min-width: 65vw; max-width: 100vw; min-height: 100%;" src="<?php echo esc_url( $hero['hero_image']['url'] ); ?>" alt="<?php echo esc_attr( $hero['hero_image']['alt'] ); ?>" />
                             
                         <?php endif; ?>
     
