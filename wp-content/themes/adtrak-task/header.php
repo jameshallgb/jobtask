@@ -54,16 +54,8 @@
                 <div class="top-bar">
 
                     <div class="container">
-                        
-                        <div class="d-flex justify-content-end" style="padding-right: 30px; padding-left: 30px;">
-    
-                            <?php if (!empty ($first_col)){ echo '<div class="column">'.$first_col.'</div>'; } ?>
                             
-                            <?php if (!empty ($second_col)){ echo '<div class="column"><a href="tel:'.$second_col.'">'.$second_col.'</a></div>'; } ?>
-                            
-                            <?php if (!empty ($third_col)){ echo '<div class="column"><a href="mailto:'.$third_col.'">'.$third_col.'</a></div>'; } ?>
-                            
-                            <nav class="navbar navbar-expand-xl p-0">
+                            <nav class="navbar navbar-expand-xl p-0 d-flex justify-content-center justify-content-md-end ">
                             
                                 <?php
                                 wp_nav_menu(array(
@@ -80,11 +72,6 @@
                                 ?>  
                             
                             </nav>
-                            
-                            
-                            <?php echo nwd_social_media(); ?>
-                        
-                        </div>
                     
                     </div>
 
