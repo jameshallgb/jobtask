@@ -145,8 +145,8 @@
     
                             if (!empty($banner_phone_text)){ ?>
     
-                                <p class="text-right mb-0 mr-3" style="color: grey; font-size: 0.8em;"><span class="d-none d-md-block"><?php echo $banner_phone_text; ?><br></span>
-                                <a class="colorDark font-weight-bold" style="font-size: 1.2rem;" href="tel:<?php echo $banner_phone_number; ?>"> <i class="fas fa-phone-alt mr-1"></i> <span class="d-none d-md-inline"><?php echo $banner_phone_number; ?></span></a></p>
+                                <p class="text-right mb-0 mr-3 d-flex align-items-center align-items-center flex-md-column align-items-md-end" style="color: rgb(128, 128, 128); font-size: 0.8em;"><span class="d-none d-md-block"><?php echo $banner_phone_text; ?><br></span>
+                                <a class="colorDark font-weight-bold" style="font-size: 1.2rem;" href="tel:<?php echo $banner_phone_number; ?>"> <i style="color: rgb(128, 128, 128); font-size: 0.8em;" class="fas fa-phone-alt mr-1"></i> <span class="d-none d-md-inline"><?php echo $banner_phone_number; ?></span></a></p>
                 
                         <?php } ?>
                         
