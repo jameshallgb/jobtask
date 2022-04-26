@@ -515,22 +515,21 @@ button.navbar-toggler{
 
 /* Top bar */
 
-ul#menu-top-bar-menu li a {
+.top-bar ul li a {
     color: #dfdfdf;
     letter-spacing: 1px;
     font-size: 0.6em;
     line-height: 1.8em;
 }
 
-ul#menu-top-bar-menu li {
+.top-bar ul li {
     border-right: solid 1px #575757;
     padding: 0 1em;
 }
 
-ul#menu-top-bar-menu li:first-child {
+.top-bar ul li:first-child {
     border-left: solid 1px #575757;
 }
-
 
 
 /*--------------------------------------------------------------
