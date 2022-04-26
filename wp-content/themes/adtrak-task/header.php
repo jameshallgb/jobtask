@@ -119,25 +119,25 @@
 
                             <?php foreach ($menu_items as $item) : ?>
 
-                                <li itemscope="itemscope" class="menu-item nav-item dropdown ">
+                                <li itemscope="itemscope" class="menu-item nav-item<?php if( !empty($item['children']) ) { echo ' dropdown'; } ?>">
 
                                     <a class="nav-link text-center p-1 d-block text-decoration-none" href="<?= $item['url'] ?>" title="<?= $item['title'] ?>"><?= $item['title'] ?></a>
 
-                                    <?php if( !empty($item['children']) ):?>
+                                    <?php if( !empty($item['children']) ): ?>
 
-                                    <ul class="dropdown-menu">
-
-                                    <?php foreach($item['children'] as $child): ?>
-
-                                        <li class="b-main-header__sub-menu__nav-item">
-
-                                        <a class="nav-link text-decoration-none" href="<?= $child['url'] ?>" title="<?= $child['title'] ?>"><?= $child['title'] ?></a>
-
-                                        </li>
-
-                                    <?php endforeach; ?>
-
-                                    </ul>
+                                        <ul class="dropdown-menu"> 
+    
+                                        <?php foreach($item['children'] as $child): ?>
+    
+                                            <li class="b-main-header__sub-menu__nav-item">
+    
+                                                <a class="nav-link text-decoration-none" href="<?= $child['url'] ?>" title="<?= $child['title'] ?>"><?= $child['title'] ?></a>
+    
+                                            </li>
+    
+                                        <?php endforeach; ?>
+    
+                                        </ul>
 
                                     <?php endif; ?>
 
