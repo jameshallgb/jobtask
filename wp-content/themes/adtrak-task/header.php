@@ -55,23 +55,25 @@
 
                     <div class="container">
                             
-                            <nav class="navbar navbar-expand-xl p-0 d-flex justify-content-center justify-content-md-end ">
-                            
-                                <?php
-                                wp_nav_menu(array(
-                                    'theme_location'    => 'top_bar',
-                                    'container'       => 'div',
-                                    'container_id'    => 'top-nav',
-                                    'container_class' => 'justify-content-end',
-                                    'menu_id'         => false,
-                                    'menu_class'      => 'navbar-nav flex-row',
-                                    'depth'           => 3,
-                                    'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                                    'walker'          => new wp_bootstrap_navwalker()
-                                ));
-                                ?>  
-                            
-                            </nav>
+                        <nav class="navbar navbar-expand-xl p-0 justify-content-center justify-content-md-end">
+
+                            <?php $menu_items = nwd_get_menu('top_bar'); ?>
+
+                            <ul class="navbar-nav flex-row">
+
+                                <?php foreach ($menu_items as $item) : ?>
+
+                                <li class="menu-item">
+
+                                    <a class="nav-link text-center d-block text-decoration-none" href="<?= $item['url'] ?>" title="<?= $item['title'] ?>"><?= $item['title'] ?></a>
+
+                                </li>
+
+                                <?php endforeach; ?>
+
+                            </ul> 
+
+                        </nav>
                     
                     </div>
 
@@ -109,19 +111,43 @@
 
                     </div>
                 
-                    <?php
-                    wp_nav_menu(array(
-                        'theme_location'    => 'primary',
-                        'container'       => 'div',
-                        'container_id'    => 'main-nav',
-                        'container_class' => 'collapse navbar-collapse justify-content-end',
-                        'menu_id'         => false,
-                        'menu_class'      => 'navbar-nav',
-                        'depth'           => 3,
-                        'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                        'walker'          => new wp_bootstrap_navwalker()
-                    ));
-                    ?>
+                    <div id="main-nav" class="navbar-collapse justify-content-end collapse ml-5">
+
+                        <?php $menu_items = nwd_get_menu('primary'); ?>
+
+                        <ul class="navbar-nav flex-column flex-xl-row" style="width: 100%;">
+
+                            <?php foreach ($menu_items as $item) : ?>
+
+                                <li itemscope="itemscope" class="menu-item nav-item dropdown ">
+
+                                    <a class="nav-link text-center p-1 d-block text-decoration-none" href="<?= $item['url'] ?>" title="<?= $item['title'] ?>"><?= $item['title'] ?></a>
+
+                                    <?php if( !empty($item['children']) ):?>
+
+                                    <ul class="dropdown-menu">
+
+                                    <?php foreach($item['children'] as $child): ?>
+
+                                        <li class="b-main-header__sub-menu__nav-item">
+
+                                        <a class="nav-link text-decoration-none" href="<?= $child['url'] ?>" title="<?= $child['title'] ?>"><?= $child['title'] ?></a>
+
+                                        </li>
+
+                                    <?php endforeach; ?>
+
+                                    </ul>
+
+                                    <?php endif; ?>
+
+                                </li>
+
+                            <?php endforeach; ?>
+
+                        </ul>
+
+                    </div>
 
                     <div class="flex-banner d-flex ml-3">
                     
@@ -211,5 +237,3 @@
 		    <div class="row"><!-- Start Row -->
 			    
                 <?php endif; ?>
-                
-                
